@@ -9721,23 +9721,26 @@ pre {
 }
 
 .header-logo {
-  height: 23px;
-  width: 93px;
-  background-image: url("../images/logo.svg");
+  height: 63px;
+  width: 128px;
+  position: absolute;
+  background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
-  background-size: 93px 23px;
+  background-size: 128px 63px;
   display: block;
   float: left;
+  left: -15px;
+  top: -32px;
   z-index: 10;
 }
 @media screen and (min-width: 1100px) {
   .header-logo {
-    background-size: 108px 27px;
-    position: absolute;
-    height: 27px;
-    width: 108px;
-    top: 4px;
-    float: none;
+      background-size: 180px 50px;
+      position: absolute;
+      height: 50px;
+      width: 180px;
+      top: -5px;
+      left: -10px;
   }
 }
 
@@ -10021,7 +10024,7 @@ pre {
 }
 
 .footer-logo {
-  background-image: url("../images/logo-icon.svg");
+  background-image: url("../images/logo-icon.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px 24px;
@@ -10311,7 +10314,7 @@ ul.pytorch-breadcrumbs a {
 }
 
 .tutorials-header .header-logo {
-  background-image: url("../images/logo-dark.svg");
+  background-image: url("../images/logo.svg");
 }
 .tutorials-header .main-menu ul li a {
   color: #262626;
