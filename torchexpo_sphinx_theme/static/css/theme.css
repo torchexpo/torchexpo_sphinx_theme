@@ -10027,19 +10027,19 @@ pre {
   background-image: url("../images/logo_icon.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 20px 24px;
+  background-size: 32px 32px;
   display: block;
-  height: 24px;
+  height: 32px;
   margin-bottom: 2.8125rem;
-  width: 20px;
+  width: 32px;
 }
 @media screen and (min-width: 768px) {
   .footer-logo {
-    background-size: 29px 36px;
-    height: 36px;
+    background-size: 48px 48px;
+    height: 48px;
     margin-bottom: 0;
     margin-bottom: 0;
-    width: 29px;
+    width: 48px;
   }
 }
 
