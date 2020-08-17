@@ -692,7 +692,7 @@ window.sideMenus = {
   }
 };
 
-},{}],"pytorch-sphinx-theme":[function(require,module,exports){
+},{}],"torchexpo-sphinx-theme":[function(require,module,exports){
 var jQuery = (typeof(window) != 'undefined') ? window.jQuery : require('jquery');
 
 // Sphinx theme nav state
@@ -945,7 +945,7 @@ if (downloadNote.length >= 1) {
     var tutorialUrlArray = $("#tutorial-type").text().split('/');
         tutorialUrlArray[0] = tutorialUrlArray[0] + "_source"
 
-    var githubLink = "https://github.com/pytorch/tutorials/blob/master/" + tutorialUrlArray.join("/") + ".py",
+    var githubLink = "https://github.com/torchexpo/tutorials/blob/master/" + tutorialUrlArray.join("/") + ".py",
         notebookLink = $(".reference.download")[1].href,
         notebookDownloadPath = notebookLink.split('_downloads')[1],
         colabLink = "https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads" + notebookDownloadPath;
@@ -1039,4 +1039,4 @@ $("#tutorial-cards p").each(function(index, item) {
     }
 });
 
-},{"jquery":"jquery"}]},{},[1,2,3,4,5,6,7,8,9,10,"pytorch-sphinx-theme"]);
+},{"jquery":"jquery"}]},{},[1,2,3,4,5,6,7,8,9,10,"torchexpo-sphinx-theme"]);
